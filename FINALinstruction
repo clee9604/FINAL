@@ -1,0 +1,13 @@
+"ls" is command that listing all files and directories.
+ls -l: shows all files and directory, size, date and tiem, name, owener of files and permissions.{-l: long list format)
+ls -p: indicate all directories and put '/' end of the directory's  name
+
+
+"grep" is command that search text in files or directories
+grep -v: option that print inverts match. Need to put what character invert.
+
+grep -v /: search all files or directories with character "/"
+
+ls -lp: shows all files and dircetories. However, directories shows with "/".
+
+ls -lp | grep -v /: shows all files. NOT directories
